@@ -16,6 +16,7 @@ import { ReporteListarComponent } from './component/reporte/reporte-listar/repor
 import { ClienteComponent } from './component/cliente/cliente.component';
 import { ClienteListarComponent } from './component/cliente/cliente-listar/cliente-listar.component';
 import { ComponenteComponent } from './component/componente/componente.component';
+import { ComponenteListarComponent } from './component/componente/componente-listar/componente-listar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ComponenteComponent } from './component/componente/componente.component
     ReporteListarComponent,
     ClienteComponent,
     ClienteListarComponent,
-    ComponenteComponent
+    ComponenteComponent,
+    ComponenteListarComponent
   ],
   imports: [
     BrowserModule,
