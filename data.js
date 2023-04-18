@@ -350,6 +350,109 @@ module.exports = function () {
           tipo_pcs: "AMD",
         }
       }
+    ],
+    cuestionario: [
+      {
+        id_cuestionario: 1,
+        tipo_form: "Largo",
+        Uso_de_PC: "Edicion",
+        Presupuesto: "Media-Alta",
+        Tamaño_del_PC: "Estandar-(ATX)",
+        Diseño: "Minimalista",
+        Tipo_de_refrigeración: "Aire",
+        Overclocking: false,
+        Marca_Procesador: "Intel",
+        Programas_used: "Adobe Premiere Pro 2022, Vegas Pro 18",
+        cliente:
+        {
+          id_cliente: 1,
+          estado_actividad: true,
+          presupuestos: "S/2500 - S/3800",
+          preferencias: "Minimalista",
+          tipo_pcs: "Intel",
+        }
+
+      },
+      {
+        id_cuestionario: 2,
+        tipo_form: "Largo",
+        Uso_de_PC: "Estudios",
+        Presupuesto: "Economica",
+        Tamaño_del_PC: "Estandar-(ATX)",
+        Diseño: "RGB",
+        Tipo_de_refrigeración: "Stock",
+        Overclocking: false,
+        Marca_Procesador: "AMD",
+        Programas_used: "",
+        cliente:
+        {
+          id_cliente: 2,
+          estado_actividad: true,
+          presupuestos: "S/1500 - S/2300",
+          preferencias: "RGB",
+          tipo_pcs: "AMD",
+        }
+      },
+      {
+        id_cuestionario: 3,
+        tipo_form: "Corto",
+        Uso_de_PC: "Alta",
+        Presupuesto: "",
+        Tamaño_del_PC: "Estandar-(ATX)",
+        Diseño: "RGB",
+        Tipo_de_refrigeración: "",
+        Overclocking: false,
+        Marca_Procesador: "AMD",
+        Programas_used: "OBS,Photoshop",
+        cliente:
+        {
+          id_cliente: 3,
+          estado_actividad: true,
+          presupuestos: "S/4000 - S/6500",
+          preferencias: "Streaming",
+          tipo_pcs: "AMD",
+        }
+      },
+      {
+        id_cuestionario: 4,
+        tipo_form: "Corto",
+        Uso_de_PC: "Gaming",
+        Presupuesto: "Economica",
+        Tamaño_del_PC: "Pequeño-(Micro ATX)",
+        Diseño: "Normal",
+        Tipo_de_refrigeración: "",
+        Overclocking: false,
+        Marca_Procesador: "Intel",
+        Programas_used: "",
+        cliente:
+        {
+          id_cliente: 4,
+          estado_actividad: true,
+          presupuestos: "S/1200 - S/2000",
+          preferencias: "basico",
+          tipo_pcs: "Intel",
+        }
+      },
+      {
+        id_cuestionario: 5,
+        tipo_form: "Corto",
+        Uso_de_PC: "Streaming",
+        Presupuesto: "Media",
+        Tamaño_del_PC: "Estandar-(ATX)",
+        Diseño: "Gaming",
+        Tipo_de_refrigeración: "",
+        Overclocking: false,
+        Marca_Procesador: "AMD",
+        Programas_used: "",
+        cliente:
+        {
+          id_cliente: 5,
+          estado_actividad: true,
+          presupuestos: "S/3000 - S/4500",
+          preferencias: "Gaming",
+          tipo_pcs: "AMD",
+        }
+      }
     ]
   }
   return data
