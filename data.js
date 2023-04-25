@@ -100,7 +100,7 @@ module.exports = function () {
     ],
     administrador: [
       {
-        id_admin: 1,
+        id: 1,
         profesion: "Ingeniero de Sistemas",
         area_trabajo: "Desarrollo",
         horario: "8:00am - 5:00pm",
@@ -121,7 +121,7 @@ module.exports = function () {
         },
       },
       {
-        id_admin: 2,
+        id: 2,
         profesion: "Administrador de Base de Datos",
         area_trabajo: "Operaciones",
         horario: "10:00am - 7:00pm",
@@ -142,7 +142,7 @@ module.exports = function () {
         },
       },
       {
-        id_admin: 3,
+        id: 3,
         profesion: "Ingeniero de Redes",
         area_trabajo: "Infraestructura",
         horario: "9:00am - 6:00pm",
@@ -165,7 +165,7 @@ module.exports = function () {
     ],
     reporte:[
       {
-      id_reporte: 1,
+      id: 1,
       descripcion:"Problemas de conectividad",
       fecha:"2022-06-12",
       estado:"Resuelto",
@@ -180,7 +180,7 @@ module.exports = function () {
         },
       },
       {
-      id_reporte: 2,
+      id: 2,
       descripcion:"Fallas en registrar sesion",
       fecha:"2023-04-5",
       estado:"En proceso",
@@ -195,7 +195,7 @@ module.exports = function () {
         },
       },
       {
-      id_reporte: 3,
+      id: 3,
       descripcion:"Problemas en la base de datos",
       fecha:"2022-12-20",
       estado:"Finalizado",
@@ -821,16 +821,6 @@ module.exports = function () {
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
-
-
-
-
-
-
-
-
-
-
       {
         id:1,
         marca: "Intel",

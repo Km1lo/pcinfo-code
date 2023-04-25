@@ -20,5 +20,4 @@ export class ComponenteService {
     {
       return this.http.get<Componente[]>(this.url);
     }
-
 }
