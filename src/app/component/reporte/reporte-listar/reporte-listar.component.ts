@@ -12,7 +12,7 @@ import { ReporteService } from 'src/app/service/reporte.service';
 export class ReporteListarComponent implements OnInit{
   dataSource:MatTableDataSource<Reporte> = new MatTableDataSource();
 
-  displayedColumns: string[] = ['id_reporte', 'id_admin', 'descripcion', 'fecha', 'estado']
+  displayedColumns: string[] = ['id_reporte', 'id_admin', 'descripcion', 'fecha', 'estado','accion01']
 
 
 
@@ -22,6 +22,9 @@ export class ReporteListarComponent implements OnInit{
     this.aS.list().subscribe(data=>{
       this.dataSource= new MatTableDataSource(data);
     })
+  }
+  filtrar(e: any) {
+    this.dataSource.filter = e.target.value.trim();
   }
 
 }

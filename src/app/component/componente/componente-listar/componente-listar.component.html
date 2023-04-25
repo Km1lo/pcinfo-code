@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <title>PC Info</title>
 </head>
 <body>
 
@@ -30,6 +31,8 @@
                         <button mat-menu-item routerLink="/administradores">ADMINISTRADORES</button>
                         <button mat-menu-item routerLink="/reportes">REPORTES</button>
                         <button mat-menu-item routerLink="/componentes">COMPONENTES</button>
+                        <button mat-menu-item routerLink="/recomendacion">RECOMENDACION</button>
+
                       </mat-menu>
                     </li>
                     <li class="nav-item px-3">
@@ -49,6 +52,175 @@
         </div>
     </nav>
   </header>
+
+
+<div class="container-lg" style="margin-top: 50px;">
+
+    <div style="text-align: center;">
+      <h1>Componentes</h1>
+    </div>
+
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource">
+
+
+        <ng-container matColumnDef="id_component">
+          <th mat-header-cell *matHeaderCellDef> id_component </th>
+          <td mat-cell *matCellDef="let element"> {{element.id_component}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef> id </th>
+          <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="marca">
+          <th mat-header-cell *matHeaderCellDef> marca </th>
+          <td mat-cell *matCellDef="let element"> {{element.marca}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="puntaje">
+          <th mat-header-cell *matHeaderCellDef> puntaje </th>
+          <td mat-cell *matCellDef="let element"> {{element.puntaje}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="descripcion">
+          <th mat-header-cell *matHeaderCellDef> descripcion </th>
+          <td mat-cell *matCellDef="let element"> {{element.descripcion}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="generacion">
+          <th mat-header-cell *matHeaderCellDef> generacion </th>
+          <td mat-cell *matCellDef="let element"> {{element.generacion}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="nombre_producto">
+          <th mat-header-cell *matHeaderCellDef> nombre_producto </th>
+          <td mat-cell *matCellDef="let element"> {{element.nombre_producto}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="litografia">
+          <th mat-header-cell *matHeaderCellDef> litografia </th>
+          <td mat-cell *matCellDef="let element"> {{element.litografia}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="precio_recomend">
+          <th mat-header-cell *matHeaderCellDef> precio_recomend </th>
+          <td mat-cell *matCellDef="let element"> {{element.precio_recomend}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="velocidad_memoriaram">
+          <th mat-header-cell *matHeaderCellDef> velocidad_memoriaram </th>
+          <td mat-cell *matCellDef="let element"> {{element.velocidad_memoriaram}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tipo_chipseet">
+          <th mat-header-cell *matHeaderCellDef> tipo_chipseet </th>
+          <td mat-cell *matCellDef="let element"> {{element.tipo_chipseet}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="compatabilidad">
+          <th mat-header-cell *matHeaderCellDef> compatabilidad </th>
+          <td mat-cell *matCellDef="let element"> {{element.compatabilidad}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tipo_mmr">
+          <th mat-header-cell *matHeaderCellDef> tipo_mmr </th>
+          <td mat-cell *matCellDef="let element"> {{element.tipo_mmr}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="velocidad_reloj_gpu">
+          <th mat-header-cell *matHeaderCellDef> velocidad_reloj_gpu </th>
+          <td mat-cell *matCellDef="let element"> {{element.velocidad_reloj_gpu}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tmn_ram">
+          <th mat-header-cell *matHeaderCellDef> tmn_ram </th>
+          <td mat-cell *matCellDef="let element"> {{element.tmn_ram}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tmn_placa_madre">
+          <th mat-header-cell *matHeaderCellDef> tmn_placa_madre </th>
+          <td mat-cell *matCellDef="let element"> {{element.tmn_placa_madre}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="zocalo">
+          <th mat-header-cell *matHeaderCellDef> zocalo </th>
+          <td mat-cell *matCellDef="let element"> {{element.zocalo}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tmn_memoria">
+          <th mat-header-cell *matHeaderCellDef> tmn_memoria </th>
+          <td mat-cell *matCellDef="let element"> {{element.tmn_memoria}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tipo_almacenamiento">
+          <th mat-header-cell *matHeaderCellDef> tipo_almacenamiento </th>
+          <td mat-cell *matCellDef="let element"> {{element.tipo_almacenamiento}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tipo_fuente">
+          <th mat-header-cell *matHeaderCellDef> tipo_fuente </th>
+          <td mat-cell *matCellDef="let element"> {{element.tipo_fuente}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="color">
+          <th mat-header-cell *matHeaderCellDef> color </th>
+          <td mat-cell *matCellDef="let element"> {{element.color}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="tamano">
+          <th mat-header-cell *matHeaderCellDef> tamano </th>
+          <td mat-cell *matCellDef="let element"> {{element.tamano}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="certificacion">
+          <th mat-header-cell *matHeaderCellDef> certificacion </th>
+          <td mat-cell *matCellDef="let element"> {{element.certificacion}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="vatios">
+          <th mat-header-cell *matHeaderCellDef> vatios </th>
+          <td mat-cell *matCellDef="let element"> {{element.vatios}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="sistema_modular">
+          <th mat-header-cell *matHeaderCellDef> sistema_modular </th>
+          <td mat-cell *matCellDef="let element"> {{element.sistema_modular}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="veloc_escrit">
+          <th mat-header-cell *matHeaderCellDef> veloc_escrit </th>
+          <td mat-cell *matCellDef="let element"> {{element.veloc_escrit}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="veloc_lect">
+          <th mat-header-cell *matHeaderCellDef> veloc_lect </th>
+          <td mat-cell *matCellDef="let element"> {{element.veloc_lect}} </td>
+        </ng-container>
+
+
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+      <mat-paginator [pageSizeOptions]="[10, 20, 30]"
+                     showFirstLastButtons
+                     aria-label="Select page of periodic elements">
+      </mat-paginator>
+    </div>
+
+  </div>
+
+
 
 </body>
 </html>
