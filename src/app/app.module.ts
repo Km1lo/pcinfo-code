@@ -28,6 +28,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule
 
 
 
