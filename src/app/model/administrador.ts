@@ -3,7 +3,7 @@ import { Usuario } from "./usuario";
 
 export class Administrador extends Usuario {
 
-  id_admin: number = 0
+
   profesion: string = ""
   area_trabajo: string = ""
   horario: string = ""
