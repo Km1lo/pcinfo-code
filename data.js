@@ -457,7 +457,7 @@ module.exports = function () {
 
     recomendacion: [
       {
-        id_recomendacion:1,
+        id:1,
         valoracion_user: 4,
         notas_adicionales: "Me gustó la recomendación brindada",
         cuestionario:
@@ -475,7 +475,7 @@ module.exports = function () {
         }
       },
       {
-        id_recomendacion: 2,
+        id: 2,
         valoracion_user: 5,
         notas_adicionales:"Me encantó la sugerencia que se me ha dado",
         cuestionario:
@@ -493,7 +493,7 @@ module.exports = function () {
         }
       },
       {
-        id_recomendacion: 3,
+        id: 3,
         valoracion_user: 3,
         notas_adicionales:"Estoy un poco en desacuerdo con la recomendación dada",
         cuestionario:
@@ -511,7 +511,7 @@ module.exports = function () {
         }
       },
       {
-        id_recomendacion: 4,
+        id: 4,
         valoracion_user: 2,
         notas_adicionales:"No estoy tan de acuerdo con la recomendación",
         cuestionario:
@@ -529,7 +529,7 @@ module.exports = function () {
         }
       },
       {
-        id_recomendacion: 5,
+        id: 5,
         valoracion_user: 4,
         notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         cuestionario:
@@ -550,7 +550,7 @@ module.exports = function () {
 
     componente:[
       {
-        id_componente:1,
+        id_component:4,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -578,13 +578,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -612,13 +612,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -646,13 +646,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -680,13 +680,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:2,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -714,13 +714,13 @@ module.exports = function () {
         veloc_lect:"500 MB/S",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -748,13 +748,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:3,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -782,13 +782,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -816,13 +816,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id_recomendacion:1,
+            id:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -850,13 +850,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -884,13 +884,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -918,13 +918,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -952,13 +952,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -986,13 +986,13 @@ module.exports = function () {
         veloc_lect:"500 MB/S",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -1020,13 +1020,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -1054,13 +1054,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_componente:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -1088,7 +1088,7 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id_recomendacion: 5,
+          id: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }

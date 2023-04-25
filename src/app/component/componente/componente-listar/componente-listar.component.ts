@@ -14,7 +14,7 @@ export class ComponenteListarComponent implements OnInit {
   dataSource:MatTableDataSource<Componente>=new MatTableDataSource();
   @ViewChild(MatPaginator) paginator!:MatPaginator;
 
-  displayedColumns:string[]=['id_componente','id',
+  displayedColumns:string[]=['id_component','id',
   'marca','puntaje','descripcion','generacion',
   'nombre_producto','litografia','precio_recomend',
   'velocidad_memoriaram','tipo_chipseet','compatabilidad'
