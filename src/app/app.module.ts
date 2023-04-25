@@ -23,6 +23,14 @@ import { AdministradorRegistrarComponent } from './component/administrador/admin
 import { ComponenteRegistrarComponent } from './component/componente/componente-registrar/componente-registrar.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { RecomendacionComponent } from './component/recomendacion/recomendacion.component';
+import { RecomendacionListarComponent } from './component/recomendacion/recomendacion-listar/recomendacion-listar.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -41,7 +49,11 @@ import {MatMenuModule} from '@angular/material/menu';
     ClienteRegistrarComponent,
     AdministradorRegistrarComponent,
     ComponenteRegistrarComponent,
-    ReporteRegistrarComponent
+    ReporteRegistrarComponent,
+    RecomendacionComponent,
+    RecomendacionListarComponent
+
+
   ],
   imports: [
     BrowserModule,
@@ -51,7 +63,17 @@ import {MatMenuModule} from '@angular/material/menu';
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatMenuModule
+    MatMenuModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatGridListModule,
+    MatButtonModule,
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

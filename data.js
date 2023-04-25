@@ -353,7 +353,7 @@ module.exports = function () {
     ],
     cuestionario: [
       {
-        id: 1,
+        id_cuestionario: 1,
         tipo_form: "Largo",
         Uso_de_PC: "Edicion",
         Presupuesto: "Media-Alta",
@@ -374,7 +374,7 @@ module.exports = function () {
 
       },
       {
-        id: 2,
+        id_cuestionario: 2,
         tipo_form: "Largo",
         Uso_de_PC: "Estudios",
         Presupuesto: "Economica",
@@ -394,7 +394,7 @@ module.exports = function () {
         }
       },
       {
-        id: 3,
+        id_cuestionario: 3,
         tipo_form: "Corto",
         Uso_de_PC: "Alta",
         Presupuesto: "",
@@ -414,7 +414,7 @@ module.exports = function () {
         }
       },
       {
-        id: 4,
+        id_cuestionario: 4,
         tipo_form: "Corto",
         Uso_de_PC: "Gaming",
         Presupuesto: "Economica",
@@ -434,7 +434,7 @@ module.exports = function () {
         }
       },
       {
-        id: 5,
+        id_cuestionario: 5,
         tipo_form: "Corto",
         Uso_de_PC: "Streaming",
         Presupuesto: "Media",
@@ -462,7 +462,7 @@ module.exports = function () {
         notas_adicionales: "Me gustó la recomendación brindada",
         cuestionario:
         {
-          id: 3,
+          id_cuestionario: 3,
           tipo_form: "Corto",
           Uso_de_PC: "Alta",
           Presupuesto: "",
@@ -480,7 +480,7 @@ module.exports = function () {
         notas_adicionales:"Me encantó la sugerencia que se me ha dado",
         cuestionario:
         {
-          id: 4,
+          id_cuestionario: 4,
         tipo_form: "Corto",
         Uso_de_PC: "Gaming",
         Presupuesto: "Economica",
@@ -498,7 +498,7 @@ module.exports = function () {
         notas_adicionales:"Estoy un poco en desacuerdo con la recomendación dada",
         cuestionario:
         {
-          id: 1,
+          id_cuestionario: 1,
           tipo_form: "Largo",
           Uso_de_PC: "Edicion",
           Presupuesto: "Media-Alta",
@@ -516,7 +516,7 @@ module.exports = function () {
         notas_adicionales:"No estoy tan de acuerdo con la recomendación",
         cuestionario:
         {
-          id: 1,
+          id_cuestionario: 1,
           tipo_form: "Largo",
           Uso_de_PC: "Edicion",
           Presupuesto: "Media-Alta",
@@ -534,7 +534,7 @@ module.exports = function () {
         notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         cuestionario:
         {
-          id: 3,
+          id_cuestionario: 3,
           tipo_form: "Corto",
           Uso_de_PC: "Alta",
           Presupuesto: "",
@@ -550,7 +550,7 @@ module.exports = function () {
 
     componente:[
       {
-        id:1,
+        id_component:4,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -578,13 +578,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -618,7 +618,7 @@ module.exports = function () {
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -652,7 +652,7 @@ module.exports = function () {
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -686,7 +686,7 @@ module.exports = function () {
           }
       },
       {
-        id:1,
+        id_component:2,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -714,13 +714,13 @@ module.exports = function () {
         veloc_lect:"500 MB/S",
         recomendacion:
           {
-            id:1,
+            id:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -748,13 +748,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id:3,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -788,7 +788,7 @@ module.exports = function () {
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -822,7 +822,7 @@ module.exports = function () {
           }
       },
       {
-        id:1,
+        id_component:1,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -856,7 +856,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -890,7 +890,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -924,7 +924,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -958,7 +958,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -992,7 +992,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -1026,7 +1026,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -1060,7 +1060,7 @@ module.exports = function () {
         }
       },
       {
-        id:1,
+        id_component:1,
         marca: "",
         puntaje:6,
         descripcion:"",
