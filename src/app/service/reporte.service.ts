@@ -13,4 +13,14 @@ export class ReporteService {
   list(){
     return this.http.get<Reporte[]>(this.url);
   }
+  listId(id:number){
+    return this.http.get<Reporte>(`${this.url}/${id}`);
+  }
+  update(rep: Reporte){
+    return this.http.put(this.url+"/"+rep.id, rep);
+  }
+  insert(reporte : Reporte){
+    return this.http.post(this.url, reporte);
+ }
+
 }
