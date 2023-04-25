@@ -9,6 +9,7 @@ import { ComponenteComponent } from './component/componente/componente.component
 import { ComponenteRegistrarComponent } from './component/componente/componente-registrar/componente-registrar.component';
 import { ReporteComponent } from './component/reporte/reporte.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
+import { RecomendacionComponent } from './component/recomendacion/recomendacion.component';
 
 const routes: Routes = [
   {
@@ -54,7 +55,17 @@ const routes: Routes = [
         path: 'editar/:id', component: ReporteRegistrarComponent
       }
     ]
-  }
+  },
+  {
+    path: 'recomendacion', component: RecomendacionComponent, children: [
+      {
+        path: 'registrar', component: ComponenteRegistrarComponent
+      },
+      {
+        path: 'editar/:id', component: ComponenteRegistrarComponent
+      }
+    ]
+  },
 
 
 ];

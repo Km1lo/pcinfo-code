@@ -23,6 +23,8 @@ import { AdministradorRegistrarComponent } from './component/administrador/admin
 import { ComponenteRegistrarComponent } from './component/componente/componente-registrar/componente-registrar.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { RecomendacionComponent } from './component/recomendacion/recomendacion.component';
+import { RecomendacionListarComponent } from './component/recomendacion/recomendacion-listar/recomendacion-listar.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,11 @@ import {MatMenuModule} from '@angular/material/menu';
     ClienteRegistrarComponent,
     AdministradorRegistrarComponent,
     ComponenteRegistrarComponent,
-    ReporteRegistrarComponent
+    ReporteRegistrarComponent,
+    RecomendacionComponent,
+    RecomendacionListarComponent
+
+
   ],
   imports: [
     BrowserModule,
