@@ -100,7 +100,7 @@ module.exports = function () {
     ],
     administrador: [
       {
-        id: 1,
+        id_administrador: 1,
         profesion: "Ingeniero de Sistemas",
         area_trabajo: "Desarrollo",
         horario: "8:00am - 5:00pm",
@@ -108,7 +108,7 @@ module.exports = function () {
         estado_vacaciones: false,
         estado_contrato: true,
         usuario: {
-          id:1,
+          id_usuario:1,
           dni: 98754824,
           nombre: "Luis",
           apellidoPaterno: "Pérez",
@@ -121,7 +121,7 @@ module.exports = function () {
         },
       },
       {
-        id: 2,
+        id_administrador: 2,
         profesion: "Administrador de Base de Datos",
         area_trabajo: "Operaciones",
         horario: "10:00am - 7:00pm",
@@ -129,7 +129,7 @@ module.exports = function () {
         estado_vacaciones: false,
         estado_contrato: true,
         usuario: {
-          id:2,
+          id_usuario:2,
           dni: 58464585,
           nombre: "Sergio",
           apellidoPaterno: "Rindro",
@@ -142,7 +142,7 @@ module.exports = function () {
         },
       },
       {
-        id: 3,
+        id_administrador: 3,
         profesion: "Ingeniero de Redes",
         area_trabajo: "Infraestructura",
         horario: "9:00am - 6:00pm",
@@ -150,7 +150,7 @@ module.exports = function () {
         estado_vacaciones: false,
         estado_contrato: true,
         usuario: {
-          id:3,
+          id_usuario:3,
           dni: 68457482,
           nombre: "Sandra",
           apellidoPaterno: "Alfaro",
@@ -165,7 +165,7 @@ module.exports = function () {
     ],
     reporte:[
       {
-      id: 1,
+      id_reporte: 1,
       descripcion:"Problemas de conectividad",
       fecha:"2022-06-12",
       estado:"Resuelto",
@@ -180,7 +180,7 @@ module.exports = function () {
         },
       },
       {
-      id: 2,
+      id_reporte: 2,
       descripcion:"Fallas en registrar sesion",
       fecha:"2023-04-5",
       estado:"En proceso",
@@ -195,7 +195,7 @@ module.exports = function () {
         },
       },
       {
-      id: 3,
+      id_reporte: 3,
       descripcion:"Problemas en la base de datos",
       fecha:"2022-12-20",
       estado:"Finalizado",
@@ -212,13 +212,13 @@ module.exports = function () {
     ],
     cliente: [
       {
-      id: 1,
+      id_cliente: 1,
       estado_actividad: true,
       presupuestos: "S/2500 - S/3800",
       preferencias: "Minimalista",
       tipo_pcs: "Intel",
       usuario:{
-          id:4,
+          id_usuario:4,
           dni: 85462574,
           nombre: "Coco",
           apellidoPaterno: "Lopez",
@@ -231,13 +231,13 @@ module.exports = function () {
         },
       },
       {
-      id: 2,
+      id_cliente: 2,
       estado_actividad: true,
       presupuestos: "S/1500 - S/2300",
       preferencias: "RGB",
       tipo_pcs: "AMD",
       usuario: {
-          id: 5,
+          id_usuario: 5,
           dni: 38965472,
           nombre: "María",
           apellidoPaterno: "García",
@@ -250,14 +250,14 @@ module.exports = function () {
         },
       },
       {
-      id: 3,
+      id_cliente: 3,
       estado_actividad: true,
       presupuestos: "S/4000 - S/6500",
       preferencias: "Streaming",
       tipo_pcs: "AMD",
       usuario:
         {
-          id: 6,
+          id_usuario: 6,
           dni: 17654398,
           nombre: "Carlos",
           apellidoPaterno: "Martínez",
@@ -270,14 +270,14 @@ module.exports = function () {
         },
       },
       {
-      id: 4,
+      id_cliente: 4,
       estado_actividad: true,
       presupuestos: "S/1200 - S/2000",
       preferencias: "basico",
       tipo_pcs: "Intel",
       usuario:
         {
-          id: 7,
+          id_usuario: 7,
           dni: 45128976,
           nombre: "Sofía",
           apellidoPaterno: "Flores",
@@ -290,13 +290,13 @@ module.exports = function () {
         },
       },
       {
-        id: 5,
+        id_cliente: 5,
         estado_actividad: true,
         presupuestos: "S/3000 - S/4500",
         preferencias: "Gaming",
         tipo_pcs: "AMD",
         usuario: {
-          id: 8,
+          id_usuario: 8,
           dni: 58794321,
           nombre: "Luis",
           apellidoPaterno: "Sánchez",
@@ -311,7 +311,7 @@ module.exports = function () {
     ],
     comentario: [
       {
-        id: 1,
+        id_comentario: 1,
         comentario: "Gracias por la recomendacion",
         fecha: "2023-04-10",
         cliente:
@@ -325,7 +325,7 @@ module.exports = function () {
 
       },
       {
-        id: 2,
+        id_comentario: 2,
         comentario: "Oigan capos su página me savlo de apuros thanks",
         fecha: "2023-04-11",
         cliente:
@@ -338,7 +338,7 @@ module.exports = function () {
         }
       },
       {
-        id: 3,
+        id_comentario: 3,
         comentario: "Me guto pero espero un poco mas de recomendaciones",
         fecha: "2023-04-12",
         cliente:

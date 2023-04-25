@@ -24,8 +24,10 @@ export class UsuarioListarComponent implements OnInit {
     this.aS.list().subscribe(data=>{
       this.dataSource= new MatTableDataSource(data);
     })
+    this.aS.getLista().subscribe(data=>{
+      this.dataSource = new MatTableDataSource(data);
+    })
   }
-
 
 
 
