@@ -22,10 +22,7 @@ import { ClienteRegistrarComponent } from './component/cliente/cliente-registrar
 import { AdministradorRegistrarComponent } from './component/administrador/administrador-registrar/administrador-registrar.component';
 import { ComponenteRegistrarComponent } from './component/componente/componente-registrar/componente-registrar.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
-import { MatMenuModule } from '@angular/material/menu';
-import { MatNativeDateModule } from '@angular/material/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatInputModule } from '@angular/material/input';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -54,11 +51,7 @@ import { MatInputModule } from '@angular/material/input';
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatMenuModule,
-    MatNativeDateModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
