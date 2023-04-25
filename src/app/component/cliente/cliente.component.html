@@ -1,2 +1,5 @@
 <router-outlet></router-outlet>
-<app-cliente-listar></app-cliente-listar>
+<div [hidden]="route.children.length!==0">
+  <app-cliente-listar></app-cliente-listar>
+</div>
+

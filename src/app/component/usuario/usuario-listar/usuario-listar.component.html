@@ -24,7 +24,14 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item px-3">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+                      <mat-menu #menu="matMenu">
+                        <button mat-menu-item routerLink="/usuarios">USUARIOS</button>
+                        <button mat-menu-item routerLink="/clientes">CLIENTES</button>
+                        <button mat-menu-item routerLink="/administradores">ADMINISTRADORES</button>
+                        <button mat-menu-item routerLink="/reportes">REPORTES</button>
+                        <button mat-menu-item routerLink="/componentes">COMPONENTES</button>
+                      </mat-menu>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link active" aria-current="page" href="#">Componentes</a>

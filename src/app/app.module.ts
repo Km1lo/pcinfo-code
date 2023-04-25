@@ -22,6 +22,7 @@ import { ClienteRegistrarComponent } from './component/cliente/cliente-registrar
 import { AdministradorRegistrarComponent } from './component/administrador/administrador-registrar/administrador-registrar.component';
 import { ComponenteRegistrarComponent } from './component/componente/componente-registrar/componente-registrar.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
