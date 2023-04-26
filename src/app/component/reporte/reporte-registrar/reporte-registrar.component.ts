@@ -16,7 +16,7 @@ export class ReporteRegistrarComponent implements OnInit {
   reporte: Reporte = new Reporte();
   mensaje: string = "";
   maxFecha: Date = moment().add(1, 'days').toDate();
-  id: number = 0;
+  id_reporte: number = 0;
   edicion: boolean = false; //no es edicion
   constructor(
     private ReporteService: ReporteService,
@@ -28,13 +28,13 @@ export class ReporteRegistrarComponent implements OnInit {
   ngOnInit(): void {
 
     this.route.params.subscribe((data: Params) => {
-      this.id = data['id']; //capturando el id del listado
-      this.edicion = data['id'] != null;
+      this.id_reporte = data['id_reporte']; //capturando el id del listado
+      this.edicion = data['id_reporte'] != null;
       this.init();
     });
 
     this.form = new FormGroup({
-      id: new FormControl(),
+      id_reporte: new FormControl(),
       fecha: new FormControl(),
       hora: new FormControl(),
       descripcion: new FormControl(),
@@ -44,9 +44,9 @@ export class ReporteRegistrarComponent implements OnInit {
 
   init() {
     if (this.edicion) {
-      this.ReporteService.listId(this.id).subscribe((data) => {
+      this.ReporteService.listId(this.id_reporte).subscribe((data) => {
         this.form = new FormGroup({
-          id: new FormControl(data.id),
+          id_reporte: new FormControl(data.id_reporte),
           fecha: new FormControl(data.fecha),
           hora: new FormControl(data.hora),
           descripcion: new FormControl(data.descripcion),
@@ -57,7 +57,7 @@ export class ReporteRegistrarComponent implements OnInit {
   }
 
   aceptar(): void {
-    this.reporte.id = this.form.value['id'];
+    this.reporte.id_reporte = this.form.value['id_reporte'];
     this.reporte.fecha = this.form.value['fecha'];
     this.reporte.hora = this.form.value['hora'];
     this.reporte.descripcion = this.form.value['descripcion'];

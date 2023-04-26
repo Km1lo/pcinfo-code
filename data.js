@@ -2,7 +2,7 @@ module.exports = function () {
   var data = {
     usuario: [
       {
-        id:1,
+        id_usuario:1,
         dni: 98754824,
         nombre: "Luis",
         apellidoPaterno: "Pérez",
@@ -14,7 +14,7 @@ module.exports = function () {
 	      pais: "Perú",
       },
       {
-        id:2,
+        id_usuario:2,
         dni: 58464585,
         nombre: "Sergio",
         apellidoPaterno: "Rindro",
@@ -26,7 +26,7 @@ module.exports = function () {
 	      pais: "Peru",
       },
       {
-        id:3,
+        id_usuario:3,
         dni: 68457482,
         nombre: "Sandra",
         apellidoPaterno: "Alfaro",
@@ -38,7 +38,7 @@ module.exports = function () {
 	      pais: "Perú",
       },
       {
-        id:4,
+        id_usuario:4,
         dni: 85462574,
         nombre: "Coco",
         apellidoPaterno: "Lopez",
@@ -50,7 +50,7 @@ module.exports = function () {
 	      pais: "Peru",
       },
       {
-        id: 5,
+        id_usuario: 5,
         dni: 38965472,
         nombre: "María",
         apellidoPaterno: "García",
@@ -62,7 +62,7 @@ module.exports = function () {
         pais: "España"
       },
       {
-        id: 6,
+        id_usuario: 6,
         dni: 17654398,
         nombre: "Carlos",
         apellidoPaterno: "Martínez",
@@ -74,7 +74,7 @@ module.exports = function () {
         pais: "Argentina"
       },
       {
-        id: 7,
+        id_usuario: 7,
         dni: 45128976,
         nombre: "Sofía",
         apellidoPaterno: "Flores",
@@ -86,7 +86,7 @@ module.exports = function () {
         pais: "Colombia"
       },
       {
-        id: 8,
+        id_usuario: 8,
         dni: 58794321,
         nombre: "Luis",
         apellidoPaterno: "Sánchez",
@@ -170,7 +170,7 @@ module.exports = function () {
       fecha:"2022-06-12",
       estado:"Resuelto",
         administrador:{
-          id_admin: 1,
+          id_administrador: 1,
           profesion: "Ingeniero de Sistemas",
           area_trabajo: "Desarrollo",
           horario: "8:00am - 5:00pm",
@@ -185,7 +185,7 @@ module.exports = function () {
       fecha:"2023-04-5",
       estado:"En proceso",
           administrador:{
-          id_admin: 2,
+          id_administrador: 2,
           profesion: "Administrador de Base de Datos",
           area_trabajo: "Operaciones",
           horario: "10:00am - 7:00pm",
@@ -200,7 +200,7 @@ module.exports = function () {
       fecha:"2022-12-20",
       estado:"Finalizado",
           administrador:{
-            id_admin: 3,
+            id_administrador: 3,
             profesion: "Administrador de Base de Datos",
             area_trabajo: "Operaciones",
             horario: "10:00am - 7:00pm",
@@ -324,6 +324,56 @@ module.exports = function () {
         id_comentario: 3,
         comentario: "Me guto pero espero un poco mas de recomendaciones",
         fecha: "2023-04-12"
+      },
+      {
+        id_comentario:4,
+        comentario: "Que chevere que pueda descargarlo en pdf, se pasaron",
+        fecha: "2023-01-10",
+      },
+      {
+        id_comentario:5,
+        comentario: "Excelentes recomendaciones! Me ayudaron a encontrar el PC perfecto para mis necesidades.",
+        fecha: "2023-01-24",
+      },
+      {
+        id_comentario:6,
+        comentario: "La variedad de opciones en esta página es impresionante. Pude encontrar una PC que se ajusta perfectamente a mi presupuesto.",
+        fecha: "2023-02-05",
+      },
+      {
+        id_comentario:7,
+        comentario: "Las descripciones de cada PC son muy detalladas y me ayudaron a entender mejor las características de cada uno.",
+        fecha: "2023-02-17",
+      },
+      {
+        id_comentario:8,
+        comentario: "La página es muy fácil de navegar. Pude encontrar rápidamente lo que estaba buscando.",
+        fecha: "2023-02-29",
+      },
+      {
+        id_comentario:9,
+        comentario: "Las recomendaciones de PC en esta página son actualizadas y relevantes. ¡Muy útil para tomar una buena decisión de compra",
+        fecha: "2023-03-08",
+      },
+      {
+        id_comentario:10,
+        comentario: "La sección de opiniones de los usuarios es muy útil.",
+        fecha: "2023-03-24",
+      },
+      {
+        id_comentario:11,
+        comentario: "Me gustó que la página incluye recomendaciones de diferentes marcas y modelos",
+        fecha: "2023-04-12",
+      },
+      {
+        id_comentario:12,
+        comentario: "Las comparativas entre diferentes PCs me permitieron tomar una decisión",
+        fecha: "2023-04-18",
+      },
+      {
+        id_comentario:13,
+        comentario: "Gracias a estas recomendaciones, pude encontrar un PC que se ajusta perfectamente a mis necesidades y presupuesto. ¡Muy recomendado!",
+        fecha: "2023-04-23",
       }
     ],
     cuestionario: [
@@ -340,7 +390,7 @@ module.exports = function () {
         Programas_used: "Adobe Premiere Pro 2022, Vegas Pro 18",
         cliente:
         {
-          id: 1,
+          id_cliente: 1,
           estado_actividad: true,
           presupuestos: "S/2500 - S/3800",
           preferencias: "Minimalista",
@@ -361,7 +411,7 @@ module.exports = function () {
         Programas_used: "",
         cliente:
         {
-          id: 2,
+          id_cliente: 2,
           estado_actividad: true,
           presupuestos: "S/1500 - S/2300",
           preferencias: "RGB",
@@ -381,7 +431,7 @@ module.exports = function () {
         Programas_used: "OBS,Photoshop",
         cliente:
         {
-          id: 3,
+          id_cliente: 3,
           estado_actividad: true,
           presupuestos: "S/4000 - S/6500",
           preferencias: "Streaming",
@@ -401,7 +451,7 @@ module.exports = function () {
         Programas_used: "",
         cliente:
         {
-          id: 4,
+          id_cliente: 4,
           estado_actividad: true,
           presupuestos: "S/1200 - S/2000",
           preferencias: "basico",
@@ -421,7 +471,7 @@ module.exports = function () {
         Programas_used: "",
         cliente:
         {
-          id: 5,
+          id_cliente: 5,
           estado_actividad: true,
           presupuestos: "S/3000 - S/4500",
           preferencias: "Gaming",
@@ -432,7 +482,7 @@ module.exports = function () {
 
     recomendacion: [
       {
-        id:1,
+        id_recomendacion:1,
         valoracion_user: 4,
         notas_adicionales: "Me gustó la recomendación brindada",
         cuestionario:
@@ -450,25 +500,25 @@ module.exports = function () {
         }
       },
       {
-        id: 2,
+        id_recomendacion: 2,
         valoracion_user: 5,
         notas_adicionales:"Me encantó la sugerencia que se me ha dado",
         cuestionario:
         {
           id_cuestionario: 4,
-        tipo_form: "Corto",
-        Uso_de_PC: "Gaming",
-        Presupuesto: "Economica",
-        Tamaño_del_PC: "Pequeño-(Micro ATX)",
-        Diseño: "Normal",
-        Tipo_de_refrigeración: "",
-        Overclocking: false,
-        Marca_Procesador: "Intel",
-        Programas_used: "",
+          tipo_form: "Corto",
+          Uso_de_PC: "Gaming",
+          Presupuesto: "Economica",
+          Tamaño_del_PC: "Pequeño-(Micro ATX)",
+          Diseño: "Normal",
+          Tipo_de_refrigeración: "",
+          Overclocking: false,
+          Marca_Procesador: "Intel",
+          Programas_used: "",
         }
       },
       {
-        id: 3,
+        id_recomendacion: 3,
         valoracion_user: 3,
         notas_adicionales:"Estoy un poco en desacuerdo con la recomendación dada",
         cuestionario:
@@ -486,7 +536,7 @@ module.exports = function () {
         }
       },
       {
-        id: 4,
+        id_recomendacion: 4,
         valoracion_user: 2,
         notas_adicionales:"No estoy tan de acuerdo con la recomendación",
         cuestionario:
@@ -504,7 +554,7 @@ module.exports = function () {
         }
       },
       {
-        id: 5,
+        id_recomendacion: 5,
         valoracion_user: 4,
         notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         cuestionario:
@@ -525,7 +575,7 @@ module.exports = function () {
 
     componente:[
       {
-        id_component:4,
+        id_componente:4,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -553,13 +603,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:2,
+            id_recomendacion:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -587,13 +637,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id_recomendacion:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -621,13 +671,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id_recomendacion:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -655,13 +705,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id_recomendacion:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:2,
+        id_componente:2,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -689,13 +739,13 @@ module.exports = function () {
         veloc_lect:"500 MB/S",
         recomendacion:
           {
-            id:2,
+            id_recomendacion:2,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -723,13 +773,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:3,
+            id_recomendacion:3,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -757,13 +807,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id_recomendacion:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -791,13 +841,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
           {
-            id:1,
+            id_recomendacion:1,
             valoracion_user: 4,
             notas_adicionales: "Me gustó la recomendación brindada",
           }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "Intel",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -825,13 +875,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:7,
         descripcion:"",
@@ -859,13 +909,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -893,13 +943,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -927,13 +977,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"El conjunto de productos son optimos para el desarrollo de diferentes actividades de gama media",
@@ -961,13 +1011,13 @@ module.exports = function () {
         veloc_lect:"500 MB/S",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"DISCO DURO 1TB WESTERN DIGITAL BLUE PARA PC",
@@ -995,13 +1045,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -1029,13 +1079,13 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
       },
       {
-        id_component:1,
+        id_componente:1,
         marca: "",
         puntaje:6,
         descripcion:"",
@@ -1063,68 +1113,12 @@ module.exports = function () {
         veloc_lect:"",
         recomendacion:
         {
-          id: 5,
+          id_recomendacion: 5,
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
-      }
-    ],
-    cometario: [
-      {
-        id_comentario:1,
-        comentario: "Que chevere que pueda descargarlo en pdf, se pasaron",
-        fecha: "2023-01-10",
-      },
-      {
-        id_comentario:2,
-        comentario: "Excelentes recomendaciones! Me ayudaron a encontrar el PC perfecto para mis necesidades.",
-        fecha: "2023-01-24",
-      },
-      {
-        id_comentario:3,
-        comentario: "La variedad de opciones en esta página es impresionante. Pude encontrar una PC que se ajusta perfectamente a mi presupuesto.",
-        fecha: "2023-02-05",
-      },
-      {
-        id_comentario:4,
-        comentario: "Las descripciones de cada PC son muy detalladas y me ayudaron a entender mejor las características de cada uno.",
-        fecha: "2023-02-17",
-      },
-      {
-        id_comentario:5,
-        comentario: "La página es muy fácil de navegar. Pude encontrar rápidamente lo que estaba buscando.",
-        fecha: "2023-02-29",
-      },
-      {
-        id_comentario:6,
-        comentario: "Las recomendaciones de PC en esta página son actualizadas y relevantes. ¡Muy útil para tomar una buena decisión de compra",
-        fecha: "2023-03-08",
-      },
-      {
-        id_comentario:7,
-        comentario: "La sección de opiniones de los usuarios es muy útil.",
-        fecha: "2023-03-24",
-      },
-      {
-        id_comentario:8,
-        comentario: "Me gustó que la página incluye recomendaciones de diferentes marcas y modelos",
-        fecha: "2023-04-12",
-      },
-      {
-        id_comentario:9,
-        comentario: "Las comparativas entre diferentes PCs me permitieron tomar una decisión",
-        fecha: "2023-04-18",
-      },
-      {
-        id_comentario:10,
-        comentario: "Gracias a estas recomendaciones, pude encontrar un PC que se ajusta perfectamente a mis necesidades y presupuesto. ¡Muy recomendado!",
-        fecha: "2023-04-23",
       }
     ]
-
-
-
-
   }
   return data
 }
