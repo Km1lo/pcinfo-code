@@ -313,42 +313,17 @@ module.exports = function () {
       {
         id_comentario: 1,
         comentario: "Gracias por la recomendacion",
-        fecha: "2023-04-10",
-        cliente:
-        {
-          id: 1,
-          estado_actividad: true,
-          presupuestos: "S/2500 - S/3800",
-          preferencias: "Minimalista",
-          tipo_pcs: "Intel",
-        }
-
+        fecha: "2023-04-10"
       },
       {
         id_comentario: 2,
         comentario: "Oigan capos su página me savlo de apuros thanks",
-        fecha: "2023-04-11",
-        cliente:
-        {
-          id: 2,
-          estado_actividad: true,
-          presupuestos: "S/1500 - S/2300",
-          preferencias: "RGB",
-          tipo_pcs: "AMD",
-        }
+        fecha: "2023-04-11"
       },
       {
         id_comentario: 3,
         comentario: "Me guto pero espero un poco mas de recomendaciones",
-        fecha: "2023-04-12",
-        cliente:
-        {
-          id: 3,
-          estado_actividad: true,
-          presupuestos: "S/4000 - S/6500",
-          preferencias: "Streaming",
-          tipo_pcs: "AMD",
-        }
+        fecha: "2023-04-12"
       }
     ],
     cuestionario: [
@@ -1092,6 +1067,58 @@ module.exports = function () {
           valoracion_user: 4,
           notas_adicionales:"Me agrada la recomendación que se me ha brindado",
         }
+      }
+    ],
+    cometario: [
+      {
+        id_comentario:1,
+        comentario: "Que chevere que pueda descargarlo en pdf, se pasaron",
+        fecha: "2023-01-10",
+      },
+      {
+        id_comentario:2,
+        comentario: "Excelentes recomendaciones! Me ayudaron a encontrar el PC perfecto para mis necesidades.",
+        fecha: "2023-01-24",
+      },
+      {
+        id_comentario:3,
+        comentario: "La variedad de opciones en esta página es impresionante. Pude encontrar una PC que se ajusta perfectamente a mi presupuesto.",
+        fecha: "2023-02-05",
+      },
+      {
+        id_comentario:4,
+        comentario: "Las descripciones de cada PC son muy detalladas y me ayudaron a entender mejor las características de cada uno.",
+        fecha: "2023-02-17",
+      },
+      {
+        id_comentario:5,
+        comentario: "La página es muy fácil de navegar. Pude encontrar rápidamente lo que estaba buscando.",
+        fecha: "2023-02-29",
+      },
+      {
+        id_comentario:6,
+        comentario: "Las recomendaciones de PC en esta página son actualizadas y relevantes. ¡Muy útil para tomar una buena decisión de compra",
+        fecha: "2023-03-08",
+      },
+      {
+        id_comentario:7,
+        comentario: "La sección de opiniones de los usuarios es muy útil.",
+        fecha: "2023-03-24",
+      },
+      {
+        id_comentario:8,
+        comentario: "Me gustó que la página incluye recomendaciones de diferentes marcas y modelos",
+        fecha: "2023-04-12",
+      },
+      {
+        id_comentario:9,
+        comentario: "Las comparativas entre diferentes PCs me permitieron tomar una decisión",
+        fecha: "2023-04-18",
+      },
+      {
+        id_comentario:10,
+        comentario: "Gracias a estas recomendaciones, pude encontrar un PC que se ajusta perfectamente a mis necesidades y presupuesto. ¡Muy recomendado!",
+        fecha: "2023-04-23",
       }
     ]
 
