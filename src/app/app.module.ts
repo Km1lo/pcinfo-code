@@ -29,7 +29,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
-
+import { ReporteDialogoComponent } from './component/reporte/reporte-listar/reporte-dialogo/reporte-dialogo.component';
+import { MatDialogModule } from '@angular/material/dialog'
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +48,8 @@ import { MatButtonModule } from '@angular/material/button';
     ClienteRegistrarComponent,
     AdministradorRegistrarComponent,
     ComponenteRegistrarComponent,
-    ReporteRegistrarComponent
+    ReporteRegistrarComponent,
+    ReporteDialogoComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +66,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatDatepickerModule,
     MatNativeDateModule,
     MatGridListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
 
 
 
