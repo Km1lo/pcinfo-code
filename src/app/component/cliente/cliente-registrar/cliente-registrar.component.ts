@@ -45,45 +45,7 @@ export class ClienteRegistrarComponent implements OnInit {
 
   constructor(private cS:ClienteService, private uS:UsuarioService, private router:Router) { }
 
-  aceptar(): void{
-    this.cliente.id_cliente = this.formC.value['id_cliente'];
-    this.usuario.id = this.formU.value['id'];
-    this.usuario.dni = this.formU.value['dni_usuario'];
-    this.usuario.nombre = this.formU.value['nombre_usuario'];
-    this.usuario.apellidoPaterno = this.formU.value['apellidoPaterno_usuario'];
-    this.usuario.apellidoMaterno = this.formU.value['apellidoMaterno_usuario'];
-    this.usuario.correo = this.formU.value['correo_usuario'];
-    this.usuario.sexo = this.formU.value['sexo_usuario'];
-    this.usuario.edad = this.formU.value['edad_usuario'];
-    this.usuario.contrasenia = this.formU.value['contrania_usuario'];
-    this.usuario.pais = this.formU.value['pais_usuario'];
+  aceptar(): void{}
 
-    this.cliente.estado_actividad = this.formC.value['estado_actividad'];
-    this.cliente.presupuestos = this.formC.value['presupuesto'];
-    this.cliente.preferencias = this.formC.value['preferencias'];
-    this.cliente.tipo_pcs = this.formC.value['tipo_pcs'];
-
-
-
-    if(this.formC.value['estado_actividad'].length>0){
-      this.cS.registrar(this.cliente).subscribe(data=>{
-        this.cS.list().subscribe(cliente=>{
-          this.cS.setLista(cliente);
-        })
-      })
-      this.router.navigate(["clientes"]);
-    }
-    if(this.formU.value['apellidoMaterno_usuario'].length>0){
-      this.uS.registrar(this.usuario).subscribe(data=>{
-        this.uS.list().subscribe(usuario=>{
-          this.uS.setLista(usuario);
-        })
-      })
-
-
-    }else {
-      this.mensaje = 'Debe llenar todos los campos';
-    }
-  }
 
 }

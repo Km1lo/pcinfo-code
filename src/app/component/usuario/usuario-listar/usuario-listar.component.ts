@@ -17,7 +17,7 @@ export class UsuarioListarComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!:MatPaginator;
 
 
-  displayedColumns:string[]=['id','dni','nombre','apellidoPaterno','apellidoMaterno','correo','sexo','edad','contrasenia','pais']
+  displayedColumns:string[]=['id_usuario','dni','nombre','apellidoPaterno','apellidoMaterno','correo','sexo','edad','contrasenia','pais']
 
   constructor(private aS:UsuarioService){}
   ngOnInit(): void {

@@ -12,6 +12,6 @@ export class Administrador extends Usuario {
   estado_contrato: boolean = false
 
   getIdUsuario(): number {
-    return this.id;
+    return this.id_usuario;
   }
 }

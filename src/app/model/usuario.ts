@@ -1,5 +1,5 @@
 export class Usuario {
-  id: number =0
+  id_usuario: number =0
   dni:number = 0
   nombre: string = ""
   apellidoPaterno: string = ""
