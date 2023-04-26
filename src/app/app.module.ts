@@ -31,9 +31,12 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
-import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
-import { RecomendacionDialogoComponent } from './component/recomendacion/recomendacion-listar/recomendacion-dialogo/recomendacion-dialogo.component';
-import { MatDialogModule } from '@angular/material/dialog'
+import { ComentarioComponent } from './component/comentario/comentario.component';
+import { ComentarioListarComponent } from './component/comentario/comentario-listar/comentario-listar.component';
+import { ComentarioRegistrarComponent } from './component/comentario/comentario-registrar/comentario-registrar.component';
+import { ComentarioDialogoComponent } from './component/comentario/comentario-listar/comentario-dialogo/comentario-dialogo.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -55,9 +58,10 @@ import { MatDialogModule } from '@angular/material/dialog'
     ReporteRegistrarComponent,
     RecomendacionComponent,
     RecomendacionListarComponent,
-    RecomendacionRegistrarComponent,
-    RecomendacionDialogoComponent,
-
+    ComentarioComponent,
+    ComentarioListarComponent,
+    ComentarioRegistrarComponent,
+    ComentarioDialogoComponent
 
 
   ],
@@ -78,6 +82,7 @@ import { MatDialogModule } from '@angular/material/dialog'
     MatGridListModule,
     MatButtonModule,
     MatDialogModule
+
 
 
   ],

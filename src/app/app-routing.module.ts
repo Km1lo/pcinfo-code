@@ -10,7 +10,8 @@ import { ComponenteRegistrarComponent } from './component/componente/componente-
 import { ReporteComponent } from './component/reporte/reporte.component';
 import { ReporteRegistrarComponent } from './component/reporte/reporte-registrar/reporte-registrar.component';
 import { RecomendacionComponent } from './component/recomendacion/recomendacion.component';
-import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
+import { ComentarioComponent } from './component/comentario/comentario.component';
+import { ComentarioRegistrarComponent } from './component/comentario/comentario-registrar/comentario-registrar.component';
 
 const routes: Routes = [
   {
@@ -60,13 +61,23 @@ const routes: Routes = [
   {
     path: 'recomendacion', component: RecomendacionComponent, children: [
       {
-        path: 'registrar', component: RecomendacionRegistrarComponent
+        path: 'registrar', component: ComponenteRegistrarComponent
       },
       {
-        path: 'editar/:id', component: RecomendacionRegistrarComponent
+        path: 'editar/:id', component: ComponenteRegistrarComponent
       }
     ]
   },
+  {
+    path: 'comentario', component: ComentarioComponent, children: [
+      {
+        path: 'registrar', component: ComentarioRegistrarComponent
+      },
+      {
+        path: 'editar/:id', component: ComentarioRegistrarComponent
+      }
+    ]
+  }
 
 
 ];
