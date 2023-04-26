@@ -313,42 +313,17 @@ module.exports = function () {
       {
         id_comentario: 1,
         comentario: "Gracias por la recomendacion",
-        fecha: "2023-04-10",
-        cliente:
-        {
-          id: 1,
-          estado_actividad: true,
-          presupuestos: "S/2500 - S/3800",
-          preferencias: "Minimalista",
-          tipo_pcs: "Intel",
-        }
-
+        fecha: "2023-04-10"
       },
       {
         id_comentario: 2,
         comentario: "Oigan capos su página me savlo de apuros thanks",
-        fecha: "2023-04-11",
-        cliente:
-        {
-          id: 2,
-          estado_actividad: true,
-          presupuestos: "S/1500 - S/2300",
-          preferencias: "RGB",
-          tipo_pcs: "AMD",
-        }
+        fecha: "2023-04-11"
       },
       {
         id_comentario: 3,
         comentario: "Me guto pero espero un poco mas de recomendaciones",
-        fecha: "2023-04-12",
-        cliente:
-        {
-          id: 3,
-          estado_actividad: true,
-          presupuestos: "S/4000 - S/6500",
-          preferencias: "Streaming",
-          tipo_pcs: "AMD",
-        }
+        fecha: "2023-04-12"
       }
     ],
     cuestionario: [
