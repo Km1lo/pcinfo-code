@@ -34,8 +34,12 @@ import { MatButtonModule } from '@angular/material/button';
 //import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
 //import { RecomendacionDialogoComponent } from './component/recomendacion/recomendacion-listar/recomendacion-dialogo/recomendacion-dialogo.component';
 import { MatDialogModule } from '@angular/material/dialog'
+<<<<<<< HEAD
 import { from } from 'rxjs';
 //import { RecomendacionRegistrarComponent}
+=======
+import { ReporteDialogoComponent } from './component/reporte/reporte-listar/reporte-dialogo/reporte-dialogo.component';
+>>>>>>> Walter
 
 @NgModule({
   declarations: [
@@ -56,8 +60,15 @@ import { from } from 'rxjs';
     ComponenteRegistrarComponent,
     ReporteRegistrarComponent,
     RecomendacionComponent,
+<<<<<<< HEAD
     RecomendacionListarComponent
 
+=======
+    RecomendacionListarComponent,
+    RecomendacionRegistrarComponent,
+    RecomendacionDialogoComponent,
+    ReporteDialogoComponent
+>>>>>>> Walter
 
 
   ],
