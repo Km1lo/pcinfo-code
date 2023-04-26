@@ -67,16 +67,7 @@ const routes: Routes = [
       }
     ]
   },
-  {
-    path: 'comentario', component: ComentarioComponent, children: [
-      {
-        path: 'registrar', component: ComentarioRegistrarComponent
-      },
-      {
-        path: 'editar/:id', component: ComentarioRegistrarComponent
-      }
-    ]
-  }
+
 
 
 ];

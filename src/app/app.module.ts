@@ -34,7 +34,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
 import { RecomendacionDialogoComponent } from './component/recomendacion/recomendacion-listar/recomendacion-dialogo/recomendacion-dialogo.component';
 import { MatDialogModule } from '@angular/material/dialog'
-
+import { ReporteDialogoComponent } from './component/reporte/reporte-listar/reporte-dialogo/reporte-dialogo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +57,7 @@ import { MatDialogModule } from '@angular/material/dialog'
     RecomendacionListarComponent,
     RecomendacionRegistrarComponent,
     RecomendacionDialogoComponent,
-
+    ReporteDialogoComponent
 
 
   ],
