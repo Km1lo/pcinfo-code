@@ -1,1 +1,99 @@
-<p>cliente-registrar works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container" style>
+
+    <div style="text-align: center;">
+      <h1 style="text-align: center;">Registrar Cliente</h1>
+
+
+      <form [formGroup]= "formU" (submit)="aceptar()">
+        <mat-form-field class="example-full-width">
+          <mat-label>DNI</mat-label>
+          <input matInput placeholder="DNI" formControlName="dni_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Nombre</mat-label>
+          <input matInput placeholder="Nombre" formControlName="nombre_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Apellido Paterno</mat-label>
+          <input matInput placeholder="Apellido Paterno" formControlName="apellidoPaterno_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Apellido Materno</mat-label>
+          <input matInput placeholder="Apellido Materno" formControlName="apellidoMaterno_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Correo</mat-label>
+          <input matInput placeholder="Correo" formControlName="correo_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Sexo</mat-label>
+          <input matInput placeholder="Sexo" formControlName="sexo_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Edad</mat-label>
+          <input matInput placeholder="Edad" formControlName="edad_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Contraseña</mat-label>
+          <input matInput placeholder="Contraseña" formControlName="contrania_usuario">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Pais</mat-label>
+          <input matInput placeholder="Pais" formControlName="pais_usuario">
+        </mat-form-field>
+      </form>
+
+      <form [formGroup]= "formC" (submit)="aceptar()">
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Estado actividad</mat-label>
+          <input matInput placeholder="Estado actividad" formControlName="estado_actividad">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Presupuesto</mat-label>
+          <input matInput placeholder="Presupuesto" formControlName="presupuesto">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Preferencias</mat-label>
+          <input matInput placeholder="Preferencias" formControlName="preferencias">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Tipo de PC</mat-label>
+          <input matInput placeholder="Tipo de PC" formControlName="tipo_pcs">
+        </mat-form-field>
+        <br>
+
+        <button class="btn btn-success" mat-raised-button color="primary" style="margin-bottom: 20px;">Guardar</button> <br>
+        <button class="btn btn-danger" mat-raised-button color="warn" routerLink="/clientes">Cancelar</button>
+        <p>{{mensaje}}</p>
+      </form>
+
+
+
+    </div>
+
+
+
+  </div>
+</body>
+</html>

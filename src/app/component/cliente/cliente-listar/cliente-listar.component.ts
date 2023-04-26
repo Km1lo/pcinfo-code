@@ -12,12 +12,15 @@ export class ClienteListarComponent implements OnInit {
   dataSource:MatTableDataSource<Cliente> = new MatTableDataSource();
 
   //crear un displayColumns de la entidad cliente llamando el atributo id de la entidad usuarios
-  displayedColumns: string[] = ['id', 'usuario_id' ,'estado_actividad', 'presupuestos', 'preferencias', 'tipo_pcs']
+  displayedColumns: string[] = ['id_cliente', 'id' ,'estado_actividad', 'presupuestos', 'preferencias', 'tipo_pcs']
 
   constructor(private cS:ClienteService) { }
   ngOnInit(): void {
     this.cS.list().subscribe(data=>{
       this.dataSource= new MatTableDataSource(data);
+    })
+    this.cS.getLista().subscribe(data=>{
+      this.dataSource = new MatTableDataSource(data);
     })
   }
 
