@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-lg" style="margin-top: 50px;">
+    <div style="text-align: center;">
+      <h1>Registar Recomendaciones</h1>
+    </div>
+  </div>
+ <ng-container  >
+  <form [formGroup]="form" (submit)="aceptar()">
+    <mat-form-field class="example-full-width">
+      <mat-label>id</mat-label>
+      <input matInput hidden placeholder="id" formControlName="id">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>valoracion_user</mat-label>
+      <input matInput required placeholder="valoracion_user" formControlName="descripcion">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>notas_adicionales</mat-label>
+      <input matInput required placeholder="notas_adicionales" formControlName="descripcion">
+    </mat-form-field>
+    <br>
+
+    <button mat-raised-button  color="primary">Aceptar</button>
+    <button mat-raised-button color="warn" routerLink="/recomendaciones">Cancelar</button>
+    <p>{{mensaje}}</p>
+
+  </form>
+</ng-container>
+</body>
+</html>
