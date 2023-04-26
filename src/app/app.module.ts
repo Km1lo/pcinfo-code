@@ -31,9 +31,11 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
-import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
-import { RecomendacionDialogoComponent } from './component/recomendacion/recomendacion-listar/recomendacion-dialogo/recomendacion-dialogo.component';
+//import { RecomendacionRegistrarComponent } from './component/recomendacion/recomendacion-registrar/recomendacion-registrar.component';
+//import { RecomendacionDialogoComponent } from './component/recomendacion/recomendacion-listar/recomendacion-dialogo/recomendacion-dialogo.component';
 import { MatDialogModule } from '@angular/material/dialog'
+import { from } from 'rxjs';
+//import { RecomendacionRegistrarComponent}
 
 @NgModule({
   declarations: [
@@ -54,9 +56,7 @@ import { MatDialogModule } from '@angular/material/dialog'
     ComponenteRegistrarComponent,
     ReporteRegistrarComponent,
     RecomendacionComponent,
-    RecomendacionListarComponent,
-    RecomendacionRegistrarComponent,
-    RecomendacionDialogoComponent,
+    RecomendacionListarComponent
 
 
 
