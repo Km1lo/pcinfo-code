@@ -31,6 +31,12 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
+import { ComentarioComponent } from './component/comentario/comentario.component';
+import { ComentarioListarComponent } from './component/comentario/comentario-listar/comentario-listar.component';
+import { ComentarioRegistrarComponent } from './component/comentario/comentario-registrar/comentario-registrar.component';
+import { ComentarioDialogoComponent } from './component/comentario/comentario-listar/comentario-dialogo/comentario-dialogo.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -51,7 +57,11 @@ import { MatButtonModule } from '@angular/material/button';
     ComponenteRegistrarComponent,
     ReporteRegistrarComponent,
     RecomendacionComponent,
-    RecomendacionListarComponent
+    RecomendacionListarComponent,
+    ComentarioComponent,
+    ComentarioListarComponent,
+    ComentarioRegistrarComponent,
+    ComentarioDialogoComponent
 
 
   ],
@@ -71,6 +81,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatNativeDateModule,
     MatGridListModule,
     MatButtonModule,
+    MatDialogModule
 
 
 
