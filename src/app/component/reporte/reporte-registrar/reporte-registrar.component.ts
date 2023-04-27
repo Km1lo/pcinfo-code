@@ -48,7 +48,6 @@ export class ReporteRegistrarComponent implements OnInit {
         this.form = new FormGroup({
           id: new FormControl(data.id),
           fecha: new FormControl(data.fecha),
-          hora: new FormControl(data.hora),
           descripcion: new FormControl(data.descripcion),
           estado:new FormControl(data.estado)
         });
@@ -59,7 +58,6 @@ export class ReporteRegistrarComponent implements OnInit {
   aceptar(): void {
     this.reporte.id = this.form.value['id'];
     this.reporte.fecha = this.form.value['fecha'];
-    this.reporte.hora = this.form.value['hora'];
     this.reporte.descripcion = this.form.value['descripcion'];
     this.reporte.estado = this.form.value['estado'];
     if (

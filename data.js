@@ -167,7 +167,7 @@ module.exports = function () {
       {
       id: 1,
       descripcion:"Problemas de conectividad",
-      fecha:"2022-06-12",
+      fecha:"2021-06-12",
       estado:"Resuelto",
         administrador:{
           id_admin: 1,
@@ -182,7 +182,7 @@ module.exports = function () {
       {
       id: 2,
       descripcion:"Fallas en registrar sesion",
-      fecha:"2023-04-5",
+      fecha:"2021-04-5",
       estado:"En proceso",
           administrador:{
           id_admin: 2,
@@ -197,7 +197,7 @@ module.exports = function () {
       {
       id: 3,
       descripcion:"Problemas en la base de datos",
-      fecha:"2022-12-20",
+      fecha:"2021-12-20",
       estado:"Finalizado",
           administrador:{
             id_admin: 3,

@@ -3,8 +3,7 @@ import { Administrador } from "./administrador"
 export class Reporte extends Administrador {
 
   //id_reporte:number=0
-  fecha: string = ""
-  hora: string = ""
+  fecha: Date = new Date(Date.now())
   descripcion: string = ""
   estado: string = ""
 

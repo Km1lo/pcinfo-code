@@ -13,7 +13,7 @@
       <h1>Registar Reportes</h1>
     </div>
   </div>
- <ng-container  >
+
   <form [formGroup]="form" (submit)="aceptar()">
     <mat-form-field class="example-full-width">
       <mat-label>Código</mat-label>
@@ -22,7 +22,7 @@
     <br>
     <mat-form-field appearance="fill">
       <mat-label>Fecha</mat-label>
-      <input matInput [matDatepicker]="picker" formControlName="fecha" max="maxFecha">
+      <input matInput [matDatepicker]="picker"  placeholder="fecha" formControlName="fecha" max="maxFecha">
       <mat-hint>MM/DD/YYYY</mat-hint>
       <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
@@ -44,6 +44,6 @@
     <p>{{mensaje}}</p>
 
   </form>
-</ng-container>
+
 </body>
 </html>
